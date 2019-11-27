@@ -20,6 +20,3 @@ function alternateCase(str) {
   
     return result.join("");
   }
-  
-  module.exports = alternateCase;
-  
