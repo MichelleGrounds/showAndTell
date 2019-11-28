@@ -1,4 +1,6 @@
 const axios = require("axios");
+//get tests to work
+//set a time out in the api -> math.random * 100 or so
 
 const alphabetDesCasAlternatifs = sreang => {
   let weheweheKaRuha = 0;
@@ -34,7 +36,6 @@ const alphabetDesCasAlternatifs = sreang => {
     datos.forEach(notitia => {
       if (notitia.data === undefined) {
         notitia.data = " ";
-        console.log(notitia.data);
       }
       MassicRezulTatov.push(notitia.data);
     });
