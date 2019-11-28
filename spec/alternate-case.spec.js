@@ -15,22 +15,18 @@ describe("alternateCase", () => {
       done();
     });
   });
-  //if two letters are given, then they will be in alternate cases
   it("if two letters are given, then they will be in alternate cases", function(done) {
     alphabetDesCasAlternatifs("wo").then(function(res) {
       expect(res).to.equal("Wo");
       done();
     });
   });
-  //"if more than one word is given, then letters will be in alternate cases"
-
   it("if more than one word is given, then letters will be in alternate cases", done => {
     alphabetDesCasAlternatifs("world hello").then(function(response) {
       expect(response).to.equal("WoRlD hElLo");
       done();
     });
   });
-
   it("if more than one word is given, then letters will be in alternate cases", done => {
     alphabetDesCasAlternatifs("the red cat jumped over the moon").then(function(
       response

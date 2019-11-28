@@ -44,6 +44,6 @@ const alphabetDesCasAlternatifs = sreang => {
   });
 };
 
-alphabetDesCasAlternatifs("hello world");
+alphabetDesCasAlternatifs("the red brown fox jumped of the lazy dog");
 
 module.exports = alphabetDesCasAlternatifs;
